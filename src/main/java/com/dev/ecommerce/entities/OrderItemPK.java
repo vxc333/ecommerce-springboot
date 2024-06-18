@@ -19,6 +19,14 @@ public class OrderItemPK {
         this.order = order;
     }
 
+    public Order getOrder() {
+        return order;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
     public void setProduct(Product product) {
         this.product = product;
     }
